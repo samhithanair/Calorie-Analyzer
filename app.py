@@ -28,7 +28,7 @@ def prepro_image(file):
     else:
         raise FileNotFoundError("No file uploaded")
 
-st.title("Nutrition Tracker!")
+st.title("Calorie Analyzer")
 
 up_file = st.file_uploader("Choose an image!",type=["jpg","jpeg","png"])
 image = ""
